@@ -1,0 +1,3 @@
+
+RewriteRule ^calculator/([^/]*)$                                                        /calculatorPage.php?slug=$1 [L]
+RewriteRule ^images/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)\.png$                       /blog_img/1.php?size=$1&bg=$2&fontcolor=$3&sizeandname=$4&text=$5 [L]
